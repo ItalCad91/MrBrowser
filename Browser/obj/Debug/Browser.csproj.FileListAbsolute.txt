@@ -1,0 +1,17 @@
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\Browser.csproj.AssemblyReference.cache
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\Browser.csproj.SuggestedBindingRedirects.cache
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\MainWindow.g.cs
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\App.g.cs
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\Browser_MarkupCompile.cache
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\bin\Debug\Browser.exe.config
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\bin\Debug\Browser.exe
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\bin\Debug\Browser.pdb
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\MainWindow.baml
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\Browser.g.resources
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\Browser.Properties.Resources.resources
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\Browser.csproj.GenerateResource.cache
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\Browser.csproj.CoreCompileInputs.cache
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\Browser.exe
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\Browser.pdb
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\Welcome.baml
+C:\Users\ricca\OneDrive\Documents\Desktop\Browser\Browser\obj\Debug\Welcome.g.cs

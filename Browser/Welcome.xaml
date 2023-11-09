@@ -1,0 +1,43 @@
+﻿<Window x:Class="Browser.WelcomeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mr Web" WindowState="Maximized" Height="260" Width="298">
+    <Grid  x:Name="Welcome1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Search Bar -->
+            <RowDefinition Height="*"/>
+            <!-- Web Browser -->
+        </Grid.RowDefinitions>
+
+        <!-- Search Bar -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <!-- Back Button -->
+                <ColumnDefinition Width="Auto"/>
+                <!-- Forward Button -->
+                <ColumnDefinition Width="Auto"/>
+                <!-- Reload Button -->
+                <ColumnDefinition Width="*"/>
+                <!-- Search Bar -->
+                <ColumnDefinition Width="Auto"/>
+                <!-- Search Button -->
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="2" Content="&#x21BB;" Click="WelcomeReload" BorderThickness="0" FontSize="30">
+                <!-- Unicode counterclockwise arrow symbol for reload -->
+            </Button>
+            <TextBox Grid.Column="3" x:Name="Search_bar" TextWrapping="Wrap" TextChanged="Welcome_Search_bar"/>
+            <Button Grid.Column="4" Content="Search" Click="Welcome_Search_Button_Click">
+                <!-- Your search button content here -->
+            </Button>
+
+        </Grid>
+
+        <!-- Welcome Message -->
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="welcomePanel" Grid.RowSpan="2">
+            <Image Source="/logo.ico" Width="100" Height="100" />
+            <TextBlock Text="Welcome to Mr Web" FontSize="24" />
+        </StackPanel>
+    </Grid>
+</Window>

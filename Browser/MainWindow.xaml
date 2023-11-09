@@ -1,0 +1,47 @@
+﻿<Window x:Class="Browser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mr Web" WindowState="Maximized">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Search Bar -->
+            <RowDefinition Height="*"/>
+            <!-- Web Browser -->
+        </Grid.RowDefinitions>
+
+        <!-- Search Bar -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <!-- Back Button -->
+                <ColumnDefinition Width="Auto"/>
+                <!-- Forward Button -->
+                <ColumnDefinition Width="Auto"/>
+                <!-- Reload Button -->
+                <ColumnDefinition Width="*"/>
+                <!-- Search Bar -->
+                <ColumnDefinition Width="Auto"/>
+                <!-- Search Button -->
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Content="&#x2190;" Click="Back" BorderThickness="0" FontSize="30" Margin="0,0,10,0">
+                <!-- Unicode left arrow symbol for back -->
+            </Button>
+            <Button x:Name="forwardButton" Content="&#x2192;" Click="Forward" BorderThickness="0" FontSize="30" Margin="30,0,37,0" RenderTransformOrigin="1.102,0.502" Grid.ColumnSpan="3">
+                <!-- Unicode right arrow symbol for forward -->
+            </Button>
+
+            <Button Grid.Column="2" Content="&#x21BB;" Click="Reload" BorderThickness="0" FontSize="30" Margin="14,0,6,0">
+                <!-- Unicode counterclockwise arrow symbol for reload -->
+            </Button>
+            <TextBox Grid.Column="2" x:Name="Search_bar" TextWrapping="Wrap" TextChanged="Search_bar_TextChanged" Grid.ColumnSpan="3" Margin="45,0,39,0"/>
+            <Button Grid.Column="4" Content="Search" Click="Search_Button">
+                <!-- Your search button content here -->
+            </Button>
+        </Grid>
+
+        <!-- Web Browser -->
+        <WebBrowser x:Name="webBrowser1" Grid.Row="1" Margin="10" />
+    </Grid>
+</Window>
