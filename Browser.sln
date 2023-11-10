@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Browser", "Browser\Browser.csproj", "{A974918A-BF26-4A4A-9824-A3FED934465C}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MrBrowserInstaller", "MrBrowserInstaller\MrBrowserInstaller.vdproj", "{6856778A-BC40-4CD4-800B-93CB6045FBE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{A974918A-BF26-4A4A-9824-A3FED934465C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A974918A-BF26-4A4A-9824-A3FED934465C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A974918A-BF26-4A4A-9824-A3FED934465C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6856778A-BC40-4CD4-800B-93CB6045FBE8}.Debug|Any CPU.ActiveCfg = Debug
+		{6856778A-BC40-4CD4-800B-93CB6045FBE8}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,6 +12,10 @@
 
         <!-- Search Bar -->
         <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="29*"/>
+                <RowDefinition Height="13*"/>
+            </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <!-- Back Button -->
@@ -25,18 +29,18 @@
                 <!-- Search Button -->
             </Grid.ColumnDefinitions>
 
-            <Button Grid.Column="0" Content="&#x2190;" Click="Back" BorderThickness="0" FontSize="30" Margin="0,0,10,0">
+            <Button Grid.Column="0" Content="&#x2190;" Click="Back" BorderThickness="0" FontSize="30" Margin="0,0,10,0" Grid.RowSpan="2">
                 <!-- Unicode left arrow symbol for back -->
             </Button>
-            <Button x:Name="forwardButton" Content="&#x2192;" Click="Forward" BorderThickness="0" FontSize="30" Margin="30,0,37,0" RenderTransformOrigin="1.102,0.502" Grid.ColumnSpan="3">
+            <Button x:Name="forwardButton" Content="&#x2192;" Click="Forward" BorderThickness="0" FontSize="30" Margin="30,0,37,0" RenderTransformOrigin="1.102,0.502" Grid.ColumnSpan="3" Grid.RowSpan="2">
                 <!-- Unicode right arrow symbol for forward -->
             </Button>
 
-            <Button Grid.Column="2" Content="&#x21BB;" Click="Reload" BorderThickness="0" FontSize="30" Margin="14,0,6,0">
+            <Button Grid.Column="2" Content="&#x21BB;" Click="Reload" BorderThickness="0" FontSize="30" Margin="14,0,7,0" Grid.RowSpan="2">
                 <!-- Unicode counterclockwise arrow symbol for reload -->
             </Button>
-            <TextBox Grid.Column="2" x:Name="Search_bar" TextWrapping="Wrap" TextChanged="Search_bar_TextChanged" Grid.ColumnSpan="3" Margin="45,0,39,0"/>
-            <Button Grid.Column="4" Content="Search" Click="Search_Button">
+            <TextBox Grid.Column="2" x:Name="Search_bar" TextWrapping="Wrap" TextChanged="Search_bar_TextChanged" Grid.ColumnSpan="3" Margin="44,0,39,0" Grid.RowSpan="2"/>
+            <Button Grid.Column="4" Content="Search" Click="Search_Button" Grid.RowSpan="2">
                 <!-- Your search button content here -->
             </Button>
         </Grid>
