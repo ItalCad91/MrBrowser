@@ -37,6 +37,6 @@ To get MrBrowser up and running:
 
 4. ## Showcasing MrBrowser
 
-![App Screenshot](MrBrowser.gif)
+![App Screenshot](Browser/MrBrowser.gif)
 
 Here's a glimpse of MrBrowser in action! (Link your GIF or video here)
