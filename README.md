@@ -36,6 +36,6 @@ To get MrWeb up and running:
 
 4. ## Showcasing MrWeb
 
-![App Screenshot](./Browser/MrWeb.gif)
+![App Screenshot](./Browser/MrBrowser.gif)
 
 Here's a glimpse of MrWeb in action!
