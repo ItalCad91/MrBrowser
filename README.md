@@ -13,9 +13,9 @@ Welcome to MrWeb, a modern web browsing application crafted with C# and the .NET
 
 # Releases
 ## Phase One:
-In this first release you'll be able to use the browser by cloning the repo
+In this first release you'll be able to use the browser by cloning the repository.
 ## Phase Two:
-Next release will include an hosted website with the possibility to download directly the .exe file from there
+Next release will include an hosted website, where the user will be able to download directly the .exe file from there.
 
 ## Getting Started with this project
 
@@ -24,14 +24,13 @@ Next release will include an hosted website with the possibility to download dir
 Before you begin, ensure you have the following installed:
 - Windows Operating System
 - .NET Framework
-- - Microsoft Visual Studio
+- Microsoft Visual Studio
 
 ### Installation
 
 To get MrWeb up and running:
 
-1. Clone the repository:
-   git clone https://github.com/YourGitHubProfile/MrWeb.git
+1. Clone the repository:   "git clone https://github.com/YourGitHubProfile/MrWeb.git"
 2. Open the project in Visual Studio or a similar IDE.  
 3. Build the project and run the executable from the build directory.
 
