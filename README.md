@@ -1,8 +1,8 @@
-# MrBrowser
+# MrWeb
 
 ## Introduction
 
-Welcome to MrBrowser, a modern web browsing application crafted with C# and the .NET framework, leveraging the power of Windows Presentation Foundation (WPF). Our goal is to provide a fast, efficient, and user-friendly browsing experience.
+Welcome to MrWeb, a modern web browsing application crafted with C# and the .NET framework, leveraging the power of Windows Presentation Foundation (WPF). Our goal is to provide a fast, efficient, and user-friendly browsing experience.
 
 ## Features
 
@@ -28,15 +28,15 @@ Before you begin, ensure you have the following installed:
 
 ### Installation
 
-To get MrBrowser up and running:
+To get MrWeb up and running:
 
 1. Clone the repository:
-   git clone https://github.com/YourGitHubProfile/MrBrowser.git
+   git clone https://github.com/YourGitHubProfile/MrWeb.git
 2. Open the project in Visual Studio or a similar IDE.  
 3. Build the project and run the executable from the build directory.
 
-4. ## Showcasing MrBrowser
+4. ## Showcasing MrWeb
 
-![App Screenshot](./Browser/MrBrowser.gif)
+![App Screenshot](./Browser/MrWeb.gif)
 
-Here's a glimpse of MrBrowser in action!
+Here's a glimpse of MrWeb in action!
